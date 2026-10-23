@@ -1,0 +1,14 @@
+{
+  "name": "sevasetu-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SevaSetu on-premises NGO platform API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed.js",
+    "test": "node --test test/*.test.js",
+    "backup": "node src/backup.js"
+  }
+}

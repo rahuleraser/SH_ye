@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Item distribution line">
+  <rect width="800" height="420" fill="#e8eef6"/>
+  <rect x="80" y="160" width="200" height="120" rx="12" fill="#0f6b4c"/>
+  <rect x="300" y="160" width="200" height="120" rx="12" fill="#e8a838"/>
+  <rect x="520" y="160" width="200" height="120" rx="12" fill="#1d4e89"/>
+  <circle cx="160" cy="330" r="24" fill="#f3d2b3"/>
+  <circle cx="400" cy="330" r="24" fill="#e6c2a0"/>
+  <circle cx="640" cy="330" r="24" fill="#d7b48c"/>
+</svg>

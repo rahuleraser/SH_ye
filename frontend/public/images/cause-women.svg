@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Women empowerment workshop">
+  <rect width="640" height="400" fill="#f8e7d4"/>
+  <circle cx="200" cy="150" r="48" fill="#c9956c"/>
+  <rect x="160" y="200" width="80" height="120" rx="16" fill="#7a3e1d"/>
+  <circle cx="320" cy="140" r="48" fill="#e6c2a0"/>
+  <rect x="280" y="190" width="80" height="130" rx="16" fill="#0f6b4c"/>
+  <circle cx="440" cy="150" r="48" fill="#d7b48c"/>
+  <rect x="400" y="200" width="80" height="120" rx="16" fill="#e8a838"/>
+  <rect x="80" y="340" width="480" height="16" fill="#c9a227"/>
+</svg>

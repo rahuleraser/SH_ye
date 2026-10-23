@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Computer training">
+  <rect width="800" height="420" fill="#12382c"/>
+  <rect x="160" y="80" width="480" height="200" rx="12" fill="#1d4e89"/>
+  <rect x="190" y="110" width="420" height="140" fill="#c8e7dc"/>
+  <circle cx="300" cy="340" r="24" fill="#f3d2b3"/>
+  <circle cx="500" cy="340" r="24" fill="#e6c2a0"/>
+</svg>

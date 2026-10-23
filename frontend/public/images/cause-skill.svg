@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Computer skill lab">
+  <rect width="640" height="400" fill="#12382c"/>
+  <rect x="70" y="80" width="220" height="140" rx="10" fill="#1d4e89"/>
+  <rect x="90" y="100" width="180" height="90" fill="#c8e7dc"/>
+  <rect x="350" y="80" width="220" height="140" rx="10" fill="#0f6b4c"/>
+  <rect x="370" y="100" width="180" height="90" fill="#f6f3ea"/>
+  <rect x="150" y="220" width="80" height="12" fill="#e8a838"/>
+  <rect x="430" y="220" width="80" height="12" fill="#e8a838"/>
+  <circle cx="190" cy="300" r="24" fill="#f3d2b3"/>
+  <rect x="168" y="324" width="44" height="46" fill="#e8a838"/>
+  <circle cx="450" cy="300" r="24" fill="#e6c2a0"/>
+  <rect x="428" y="324" width="44" height="46" fill="#1d4e89"/>
+</svg>

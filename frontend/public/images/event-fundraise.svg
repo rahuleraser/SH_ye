@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Fundraising gathering">
+  <rect width="800" height="420" fill="#f8e7d4"/>
+  <rect x="220" y="70" width="360" height="180" rx="12" fill="#0f6b4c"/>
+  <rect x="250" y="100" width="300" height="20" fill="#e8a838"/>
+  <circle cx="250" cy="320" r="28" fill="#f3d2b3"/>
+  <circle cx="400" cy="320" r="28" fill="#e6c2a0"/>
+  <circle cx="550" cy="320" r="28" fill="#d7b48c"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Scholarship ceremony">
+  <rect width="800" height="420" fill="#f6f3ea"/>
+  <rect x="250" y="60" width="300" height="40" rx="6" fill="#e8a838"/>
+  <polygon points="250,100 400,180 550,100" fill="#0f6b4c"/>
+  <circle cx="400" cy="240" r="40" fill="#f3d2b3"/>
+  <rect x="360" y="280" width="80" height="90" rx="10" fill="#1d4e89"/>
+  <rect x="120" y="300" width="140" height="70" rx="10" fill="#fff"/>
+  <rect x="540" y="300" width="140" height="70" rx="10" fill="#fff"/>
+</svg>

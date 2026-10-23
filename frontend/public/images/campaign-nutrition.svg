@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Nutrition packs">
+  <rect width="800" height="420" fill="#eaf6e4"/>
+  <rect x="120" y="120" width="140" height="180" rx="12" fill="#e07a3d"/>
+  <rect x="300" y="100" width="140" height="200" rx="12" fill="#0f6b4c"/>
+  <rect x="480" y="130" width="140" height="170" rx="12" fill="#e8a838"/>
+  <rect x="150" y="150" width="80" height="20" fill="#fff"/>
+  <rect x="330" y="140" width="80" height="20" fill="#fff"/>
+  <rect x="510" y="160" width="80" height="20" fill="#fff"/>
+</svg>

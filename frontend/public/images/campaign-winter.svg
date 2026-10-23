@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Winter warmth clothing drive">
+  <rect width="800" height="420" fill="#dfeaf3"/>
+  <circle cx="120" cy="70" r="36" fill="#f6f3ea"/>
+  <rect x="0" y="280" width="800" height="140" fill="#eef4f8"/>
+  <rect x="90" y="150" width="120" height="160" rx="20" fill="#1d4e89"/>
+  <rect x="250" y="140" width="120" height="170" rx="20" fill="#0f6b4c"/>
+  <rect x="410" y="155" width="120" height="155" rx="20" fill="#e8a838"/>
+  <rect x="570" y="145" width="120" height="165" rx="20" fill="#7a3e1d"/>
+  <circle cx="150" cy="130" r="22" fill="#f3d2b3"/>
+  <circle cx="310" cy="120" r="22" fill="#e6c2a0"/>
+  <circle cx="470" cy="135" r="22" fill="#d7b48c"/>
+  <circle cx="630" cy="125" r="22" fill="#c9956c"/>
+</svg>

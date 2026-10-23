@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="School uniform drive">
+  <rect width="800" height="420" fill="#e8eef6"/>
+  <rect x="160" y="80" width="150" height="220" rx="18" fill="#1d4e89"/>
+  <rect x="340" y="70" width="150" height="230" rx="18" fill="#0f6b4c"/>
+  <rect x="520" y="90" width="130" height="210" rx="18" fill="#e8a838"/>
+  <circle cx="235" cy="70" r="24" fill="#f3d2b3"/>
+  <circle cx="415" cy="60" r="24" fill="#e6c2a0"/>
+  <circle cx="585" cy="80" r="24" fill="#d7b48c"/>
+</svg>

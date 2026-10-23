@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Education camp tent">
+  <rect width="800" height="420" fill="#f6f3ea"/>
+  <polygon points="120,320 400,80 680,320" fill="#0f6b4c"/>
+  <polygon points="220,320 400,140 580,320" fill="#14825c"/>
+  <rect x="370" y="250" width="60" height="70" fill="#3d2a1a"/>
+  <circle cx="200" cy="340" r="22" fill="#f3d2b3"/>
+  <circle cx="600" cy="340" r="22" fill="#e6c2a0"/>
+</svg>

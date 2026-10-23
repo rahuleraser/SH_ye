@@ -1,0 +1,12 @@
+{
+  "name": "SevaSetu",
+  "short_name": "SevaSetu",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ea",
+  "theme_color": "#0f6b4c",
+  "lang": "en",
+  "icons": [
+    { "src": "/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

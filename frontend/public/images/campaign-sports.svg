@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Sports for all">
+  <rect width="800" height="420" fill="#c8e7dc"/>
+  <ellipse cx="400" cy="300" rx="280" ry="50" fill="#8fbc6b"/>
+  <circle cx="400" cy="200" r="70" fill="#e8a838"/>
+  <circle cx="250" cy="230" r="36" fill="#f3d2b3"/>
+  <rect x="228" y="266" width="44" height="70" fill="#1d4e89"/>
+  <circle cx="550" cy="230" r="36" fill="#e6c2a0"/>
+  <rect x="528" y="266" width="44" height="70" fill="#0f6b4c"/>
+</svg>

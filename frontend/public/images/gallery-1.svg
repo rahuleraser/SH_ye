@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Children in a learning circle">
+  <rect width="640" height="400" fill="#e7f4ee"/>
+  <circle cx="180" cy="220" r="40" fill="#f3d2b3"/>
+  <circle cx="320" cy="180" r="44" fill="#e6c2a0"/>
+  <circle cx="460" cy="220" r="40" fill="#d7b48c"/>
+  <rect x="150" y="260" width="60" height="70" fill="#1d4e89"/>
+  <rect x="290" y="224" width="60" height="90" fill="#0f6b4c"/>
+  <rect x="430" y="260" width="60" height="70" fill="#e8a838"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Classroom education">
+  <rect width="640" height="400" fill="#e7f4ee"/>
+  <rect x="40" y="40" width="560" height="240" rx="16" fill="#0f6b4c"/>
+  <rect x="70" y="70" width="300" height="180" rx="8" fill="#f6f3ea"/>
+  <rect x="90" y="100" width="220" height="12" fill="#14825c"/>
+  <rect x="90" y="128" width="180" height="10" fill="#c8e7dc"/>
+  <rect x="90" y="150" width="200" height="10" fill="#c8e7dc"/>
+  <circle cx="470" cy="150" r="44" fill="#e8a838"/>
+  <rect x="430" y="200" width="80" height="70" rx="8" fill="#1d4e89"/>
+  <circle cx="160" cy="330" r="22" fill="#f3d2b3"/>
+  <rect x="140" y="352" width="40" height="36" fill="#1d4e89"/>
+  <circle cx="230" cy="330" r="22" fill="#e6c2a0"/>
+  <rect x="210" y="352" width="40" height="36" fill="#e8a838"/>
+  <circle cx="300" cy="330" r="22" fill="#d7b48c"/>
+  <rect x="280" y="352" width="40" height="36" fill="#0f6b4c"/>
+  <rect x="380" y="318" width="90" height="12" fill="#0f6b4c"/>
+  <rect x="380" y="338" width="70" height="10" fill="#14825c"/>
+</svg>

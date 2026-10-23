@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Midday meals campaign">
+  <rect width="800" height="420" fill="#fff4d6"/>
+  <ellipse cx="400" cy="250" rx="260" ry="40" fill="#e8d5a3"/>
+  <rect x="220" y="150" width="360" height="90" rx="18" fill="#f6f3ea"/>
+  <circle cx="300" cy="195" r="28" fill="#e07a3d"/>
+  <circle cx="400" cy="195" r="28" fill="#0f6b4c"/>
+  <circle cx="500" cy="195" r="28" fill="#e8a838"/>
+  <circle cx="180" cy="320" r="26" fill="#f3d2b3"/>
+  <rect x="156" y="346" width="48" height="48" fill="#1d4e89"/>
+  <circle cx="400" cy="324" r="26" fill="#e6c2a0"/>
+  <rect x="376" y="350" width="48" height="44" fill="#0f6b4c"/>
+  <circle cx="620" cy="320" r="26" fill="#d7b48c"/>
+  <rect x="596" y="346" width="48" height="48" fill="#7a3e1d"/>
+</svg>

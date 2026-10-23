@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Community healthcare camp">
+  <rect width="640" height="400" fill="#e7f0f4"/>
+  <rect x="120" y="80" width="400" height="180" rx="16" fill="#fff"/>
+  <rect x="280" y="110" width="80" height="24" fill="#b42318"/>
+  <rect x="308" y="82" width="24" height="80" fill="#b42318"/>
+  <rect x="160" y="200" width="320" height="20" fill="#0f6b4c"/>
+  <circle cx="220" cy="310" r="28" fill="#f3d2b3"/>
+  <rect x="196" y="338" width="48" height="40" fill="#1d4e89"/>
+  <circle cx="420" cy="310" r="28" fill="#e6c2a0"/>
+  <rect x="396" y="338" width="48" height="40" fill="#0f6b4c"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Field distribution in a village">
+  <rect width="640" height="400" fill="#c8e7dc"/>
+  <rect x="0" y="260" width="640" height="140" fill="#8fbc6b"/>
+  <polygon points="80,260 160,160 240,260" fill="#7a3e1d"/>
+  <rect x="300" y="180" width="220" height="80" rx="10" fill="#0f6b4c"/>
+  <circle cx="360" cy="320" r="22" fill="#f3d2b3"/>
+  <circle cx="430" cy="320" r="22" fill="#e6c2a0"/>
+  <circle cx="500" cy="320" r="22" fill="#d7b48c"/>
+</svg>

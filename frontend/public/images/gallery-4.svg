@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Donor visit to learning centre">
+  <rect width="640" height="400" fill="#f6f3ea"/>
+  <rect x="40" y="60" width="560" height="200" rx="16" fill="#14825c"/>
+  <rect x="70" y="90" width="240" height="140" fill="#f6f3ea"/>
+  <circle cx="180" cy="320" r="26" fill="#f3d2b3"/>
+  <circle cx="320" cy="320" r="26" fill="#e6c2a0"/>
+  <circle cx="460" cy="320" r="26" fill="#c9956c"/>
+</svg>

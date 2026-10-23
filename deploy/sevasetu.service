@@ -1,0 +1,19 @@
+[Unit]
+Description=SevaSetu on-premises NGO platform
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/sevasetu/backend
+EnvironmentFile=/opt/sevasetu/.env
+Environment=STATIC_DIR=/opt/sevasetu/frontend/dist
+Environment=API_PORT=8080
+ExecStart=/usr/bin/node src/index.js
+Restart=always
+RestartSec=5
+User=sevasetu
+Group=sevasetu
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target

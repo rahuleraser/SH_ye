@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Community digital lab">
+  <rect width="800" height="420" fill="#12382c"/>
+  <rect x="80" y="70" width="280" height="170" rx="12" fill="#1d4e89"/>
+  <rect x="100" y="90" width="240" height="120" fill="#c8e7dc"/>
+  <rect x="440" y="70" width="280" height="170" rx="12" fill="#0f6b4c"/>
+  <rect x="460" y="90" width="240" height="120" fill="#f6f3ea"/>
+  <circle cx="220" cy="310" r="28" fill="#f3d2b3"/>
+  <rect x="196" y="338" width="48" height="50" fill="#e8a838"/>
+  <circle cx="580" cy="310" r="28" fill="#e6c2a0"/>
+  <rect x="556" y="338" width="48" height="50" fill="#1d4e89"/>
+</svg>

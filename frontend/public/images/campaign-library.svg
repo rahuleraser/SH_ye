@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-label="Village library books">
+  <rect width="800" height="420" fill="#f3ebe0"/>
+  <rect x="80" y="80" width="640" height="260" rx="12" fill="#7a3e1d"/>
+  <rect x="110" y="110" width="70" height="200" fill="#e8a838"/>
+  <rect x="200" y="110" width="70" height="200" fill="#0f6b4c"/>
+  <rect x="290" y="110" width="70" height="200" fill="#1d4e89"/>
+  <rect x="380" y="110" width="70" height="200" fill="#b42318"/>
+  <rect x="470" y="110" width="70" height="200" fill="#14825c"/>
+  <rect x="560" y="110" width="70" height="200" fill="#e07a3d"/>
+  <rect x="650" y="110" width="40" height="200" fill="#c8e7dc"/>
+</svg>
