@@ -1,0 +1,2184 @@
+PROJECT NAME:
+"SevaSetu" – Multi-NGO Education, Donation & Community Support Platform
+
+DOMAIN:
+Use a configurable domain such as abcyz.in
+
+OBJECTIVE:
+Build a complete, production-ready Web + Mobile Responsive application that allows multiple NGOs to work together to support poor and underprivileged children and families.
+
+The platform must support:
+1. Multiple NGOs
+2. Poor/underprivileged children
+3. Students and parents/guardians
+4. Education programs
+5. School/scholarship management
+6. Donations
+7. Clothing distribution
+8. Food distribution
+9. Books and stationery
+10. Inventory
+11. Volunteers
+12. Donor management
+13. Beneficiary management
+14. Events
+15. Fundraising campaigns
+16. Sponsorship
+17. Admin management
+18. NGO-specific administration
+19. Reports and analytics
+20. Documents and verification
+21. Notifications
+22. Audit logs
+23. Website CMS
+24. Mobile-friendly PWA
+25. Multi-language support
+26. Future integration with payment gateways, SMS, WhatsApp and email.
+
+IMPORTANT:
+Do NOT create a simple demo.
+Build the application architecture as a real production-ready platform.
+
+Every button, menu, tab, form, filter, search box, dashboard card and workflow must work.
+
+==================================================
+1. USER TYPES / ROLES
+==================================================
+
+Create Role-Based Access Control.
+
+Roles:
+
+SUPER ADMIN
+- Full platform access
+- Manage all NGOs
+- Manage all users
+- Manage permissions
+- Approve/reject NGOs
+- View platform-wide analytics
+- Manage categories
+- Manage inventory
+- Manage campaigns
+- Manage donations
+- Manage website content
+- Manage system settings
+- Audit logs
+- Backup/export
+- Configuration
+
+NGO ADMIN
+- Manage own NGO
+- NGO profile
+- Staff
+- Volunteers
+- Beneficiaries
+- Students
+- Donors
+- Inventory
+- Education programs
+- Distribution
+- Events
+- Campaigns
+- Reports
+
+NGO STAFF
+- Manage assigned beneficiaries
+- Update student records
+- Inventory operations
+- Distribution records
+- Attendance
+- Upload documents
+
+TEACHER
+- Manage assigned classes
+- Students
+- Attendance
+- Assignments
+- Exams
+- Results
+- Learning material
+
+VOLUNTEER
+- Volunteer profile
+- Availability
+- Skills
+- Assigned activities
+- Events
+- Distribution work
+- Attendance
+
+DONOR
+- Donor profile
+- Donate
+- Donation history
+- Tax receipts
+- Campaigns
+- Sponsored children
+- Donation preferences
+
+BENEFICIARY / PARENT
+- Profile
+- Children
+- Education status
+- Requested support
+- Distribution history
+- Scholarship status
+
+STUDENT
+- Student dashboard
+- Courses
+- Attendance
+- Assignments
+- Exams
+- Certificates
+- Learning resources
+
+PUBLIC USER
+- Browse NGOs
+- Browse campaigns
+- Donate
+- Volunteer registration
+- Contact NGO
+- Apply for support
+- View impact
+
+==================================================
+2. LOGIN / AUTHENTICATION
+==================================================
+
+Create:
+
+- User registration
+- Login
+- Logout
+- Forgot password
+- Reset password
+- Email verification
+- Mobile OTP verification
+- Google login
+- Optional social login
+- Role-based login
+- Admin login
+- NGO login
+- Session management
+- Remember me
+- Two-factor authentication
+- Account lockout
+- Password change
+- Profile management
+
+Create separate secure admin portal:
+
+/admin
+
+NGO portal:
+
+/ngo
+
+User portal:
+
+/dashboard
+
+==================================================
+3. MULTI-NGO SYSTEM
+==================================================
+
+This is a multi-tenant platform.
+
+Each NGO must have:
+
+- NGO ID
+- NGO name
+- Logo
+- Registration number
+- NGO type
+- Address
+- State
+- District
+- City
+- PIN code
+- Contact person
+- Email
+- Phone
+- Website
+- Bank details
+- Registration documents
+- PAN
+- 12A information
+- 80G information
+- FCRA information
+- Verification status
+- Approval status
+
+NGO statuses:
+
+Pending
+Under Review
+Approved
+Rejected
+Suspended
+Inactive
+
+Super Admin can approve NGOs.
+
+Each NGO must only see its own data unless Super Admin grants access.
+
+==================================================
+4. NGO DIRECTORY
+==================================================
+
+Create public NGO directory.
+
+Features:
+
+- Search NGO
+- Filter by state
+- Filter by city
+- Filter by cause
+- Education
+- Food
+- Clothing
+- Healthcare
+- Women empowerment
+- Child welfare
+- Skill development
+- Rural development
+
+NGO profile page:
+
+- About
+- Mission
+- Programs
+- Locations
+- Projects
+- Photos
+- Videos
+- Team
+- Volunteers
+- Impact
+- Donations
+- Contact
+- Documents
+- Verification badge
+
+==================================================
+5. CHILD / BENEFICIARY MANAGEMENT
+==================================================
+
+Create complete beneficiary management.
+
+Fields:
+
+- Beneficiary ID
+- Name
+- Photo
+- DOB
+- Gender
+- Parent/Guardian
+- Phone
+- Address
+- State
+- District
+- City
+- Family income
+- Number of family members
+- School
+- Class
+- Education status
+- Special requirements
+- Documents
+- Aadhaar/ID reference where legally appropriate
+- Verification status
+- Assigned NGO
+- Assigned case worker
+
+Do NOT expose sensitive personal data publicly.
+
+Add:
+
+- Beneficiary registration
+- Verification
+- Approval
+- Rejection
+- Case history
+- Support history
+- Distribution history
+- Education history
+- Scholarship history
+
+==================================================
+6. CHILD SPONSORSHIP
+==================================================
+
+Create child sponsorship system.
+
+Donor can:
+
+- Browse eligible sponsorship programs
+- Select child/program where appropriate
+- Sponsor education
+- Sponsor school fees
+- Sponsor books
+- Sponsor uniform
+- Sponsor transport
+- Sponsor meals
+- Sponsor annual education
+
+Subscription options:
+
+Monthly
+Quarterly
+Half-yearly
+Yearly
+One-time
+
+Create sponsorship dashboard.
+
+Track:
+
+Amount committed
+Amount received
+Amount utilized
+Remaining requirement
+Student progress
+Attendance
+Education progress
+
+Protect child privacy and never expose unnecessary identifying information.
+
+==================================================
+7. EDUCATION MANAGEMENT SYSTEM
+==================================================
+
+Create complete education module.
+
+Programs:
+
+- School education
+- After-school classes
+- Tuition
+- Digital education
+- Computer education
+- English learning
+- Vocational education
+- Skill development
+- Career guidance
+
+Create:
+
+Schools
+Classes
+Sections
+Subjects
+Teachers
+Students
+Academic years
+Courses
+
+Student features:
+
+- Attendance
+- Timetable
+- Assignments
+- Homework
+- Study material
+- Exams
+- Marks
+- Results
+- Certificates
+- Progress reports
+
+Teacher dashboard:
+
+- Assigned classes
+- Students
+- Attendance
+- Assignments
+- Exams
+- Marks
+- Reports
+
+==================================================
+8. CLOTHING MANAGEMENT
+==================================================
+
+Create clothing inventory.
+
+Categories:
+
+Men
+Women
+Boys
+Girls
+Children
+Infants
+
+Clothing types:
+
+Shirt
+T-Shirt
+Pants
+Jeans
+Shorts
+School Uniform
+Sweater
+Jacket
+Shoes
+Socks
+Underwear
+Saree
+Salwar Suit
+Kurta
+Other
+
+SIZE MANAGEMENT:
+
+Children:
+
+0-3 Months
+3-6 Months
+6-12 Months
+1-2 Years
+2-3 Years
+3-4 Years
+4-5 Years
+5-6 Years
+6-7 Years
+7-8 Years
+8-9 Years
+9-10 Years
+10-11 Years
+11-12 Years
+12-13 Years
+13-14 Years
+14-16 Years
+
+Adult:
+
+XS
+S
+M
+L
+XL
+XXL
+3XL
+4XL
+5XL
+
+Allow custom sizes.
+
+Inventory fields:
+
+- Item ID
+- Category
+- Item name
+- Brand
+- Size
+- Gender
+- Color
+- Quantity
+- Available quantity
+- Reserved quantity
+- Distributed quantity
+- Condition
+- Purchase price
+- Estimated value
+- Donated/purchased
+- Donor
+- Warehouse
+- Location
+- Expiry where applicable
+- Images
+
+==================================================
+9. GENERAL INVENTORY
+==================================================
+
+Create complete inventory management.
+
+Categories:
+
+Books
+Notebooks
+Pens
+Pencils
+School bags
+Uniforms
+Shoes
+Clothes
+Computers
+Laptops
+Tablets
+Furniture
+Food
+Medical supplies
+Sports equipment
+Toys
+Blankets
+Hygiene products
+Other
+
+Inventory functions:
+
+- Add item
+- Edit
+- Delete
+- Stock in
+- Stock out
+- Transfer
+- Reserve
+- Distribution
+- Return
+- Damaged
+- Lost
+- Adjustment
+- Low-stock alert
+
+Inventory dashboard:
+
+Total Items
+Available
+Reserved
+Distributed
+Low Stock
+Damaged
+Pending Requests
+
+==================================================
+10. WAREHOUSE MANAGEMENT
+==================================================
+
+Multiple warehouses per NGO.
+
+Warehouse:
+
+- Name
+- Address
+- Manager
+- Contact
+- Capacity
+
+Allow:
+
+Warehouse A
+Warehouse B
+Warehouse C
+
+Inventory transfer:
+
+Warehouse A → Warehouse B
+
+Maintain complete transaction history.
+
+==================================================
+11. DONATION MANAGEMENT
+==================================================
+
+Donation types:
+
+Money
+Clothes
+Books
+Food
+Stationery
+Electronics
+Furniture
+School supplies
+Medical supplies
+Other
+
+Donation workflow:
+
+Donor
+→ Donation
+→ Verification
+→ Receipt
+→ Inventory entry where applicable
+→ Distribution / utilization
+→ Impact reporting
+
+Cash donations:
+
+- One-time
+- Monthly
+- Quarterly
+- Annual
+
+Create donation receipt.
+
+Generate downloadable PDF receipt.
+
+==================================================
+12. PAYMENT SYSTEM
+==================================================
+
+Design payment abstraction layer.
+
+Support future integration with:
+
+Razorpay
+Stripe
+PayPal
+UPI
+Bank transfer
+
+Do NOT hard-code payment gateway.
+
+Create PaymentService interface.
+
+Statuses:
+
+Pending
+Processing
+Successful
+Failed
+Refunded
+Cancelled
+
+Store transaction IDs securely.
+
+Never store raw card information.
+
+==================================================
+13. FUNDRAISING CAMPAIGNS
+==================================================
+
+Create campaigns.
+
+Campaign fields:
+
+- Campaign name
+- NGO
+- Goal amount
+- Raised amount
+- Start date
+- End date
+- Description
+- Images
+- Videos
+- Location
+- Beneficiaries
+- Impact target
+- Status
+
+Campaign page:
+
+Goal
+Raised
+Progress %
+Donors
+Updates
+Impact
+
+Donation button.
+
+==================================================
+14. CLOTHING / ITEM REQUEST SYSTEM
+==================================================
+
+Beneficiary can request:
+
+Clothes
+Books
+School bag
+Shoes
+Uniform
+Food
+Stationery
+Blanket
+Computer
+Tablet
+
+Request workflow:
+
+Requested
+→ Under Review
+→ Approved
+→ Inventory Reserved
+→ Distribution Scheduled
+→ Distributed
+→ Completed
+
+Allow rejection with reason.
+
+==================================================
+15. DISTRIBUTION MANAGEMENT
+==================================================
+
+Create distribution events.
+
+Example:
+
+"Winter Clothes Distribution"
+
+Fields:
+
+- Event name
+- NGO
+- Date
+- Location
+- Volunteers
+- Beneficiaries
+- Items
+- Quantity
+
+Scan/verify beneficiary.
+
+Generate distribution record.
+
+Track:
+
+Who received
+What item
+Quantity
+Size
+Date
+Location
+NGO
+Staff
+Volunteer
+
+Create digital acknowledgement.
+
+==================================================
+16. FOOD DISTRIBUTION
+==================================================
+
+Create food management.
+
+Items:
+
+Rice
+Wheat
+Dal
+Oil
+Milk
+Fruits
+Vegetables
+Cooked meals
+Dry ration
+Other
+
+Track:
+
+Quantity
+Unit
+Expiry
+Warehouse
+Donor
+Distribution
+Beneficiary
+
+Add expiry alerts.
+
+==================================================
+17. BOOK / EDUCATIONAL MATERIAL MANAGEMENT
+==================================================
+
+Create:
+
+Book inventory
+Subject
+Class
+Language
+ISBN
+Author
+Publisher
+Quantity
+
+Allow:
+
+Book donation
+Book request
+Book distribution
+Book return
+
+==================================================
+18. VOLUNTEER MANAGEMENT
+==================================================
+
+Volunteer registration.
+
+Fields:
+
+Name
+Photo
+Email
+Phone
+City
+Skills
+Education
+Profession
+Languages
+Availability
+Emergency contact
+Experience
+Interests
+
+Volunteer skills:
+
+Teaching
+IT
+Fundraising
+Event management
+Medical
+Photography
+Social media
+Driving
+Logistics
+Counselling
+Administration
+
+Volunteer workflow:
+
+Applied
+Verified
+Approved
+Active
+Inactive
+
+==================================================
+19. VOLUNTEER EVENT MANAGEMENT
+==================================================
+
+Create events.
+
+Event types:
+
+Education camp
+Clothing distribution
+Food distribution
+Fundraising
+Blood donation
+Career workshop
+Computer training
+Sports
+Community event
+
+Features:
+
+- Event registration
+- Volunteer assignment
+- Attendance
+- Capacity
+- Location
+- Date/time
+- Photos
+- Reports
+
+==================================================
+20. SCHOLARSHIP MANAGEMENT
+==================================================
+
+Create scholarship programs.
+
+Fields:
+
+Name
+Eligibility
+Income criteria
+Education criteria
+Location
+Amount
+Frequency
+Documents
+Application deadline
+
+Application workflow:
+
+Applied
+→ Document Verification
+→ Eligible
+→ Approved
+→ Payment
+→ Completed
+
+==================================================
+21. DOCUMENT MANAGEMENT
+==================================================
+
+Upload:
+
+Identity documents
+Income certificate
+School certificate
+Birth certificate
+Registration documents
+NGO documents
+Receipts
+Bills
+Invoices
+Certificates
+
+Features:
+
+- Secure storage
+- Document categories
+- Verification
+- Expiry tracking
+- Download
+- Access control
+
+Sensitive documents must never be publicly accessible.
+
+==================================================
+22. BILL / EXPENSE MANAGEMENT
+==================================================
+
+NGO expense module.
+
+Categories:
+
+Education
+Food
+Clothing
+Transport
+Rent
+Salary
+Events
+Technology
+Utilities
+Medical
+Administration
+Other
+
+Fields:
+
+Amount
+Date
+Vendor
+Invoice
+Category
+Project
+Campaign
+NGO
+Payment method
+Approval status
+
+Workflow:
+
+Draft
+→ Submitted
+→ Approved
+→ Paid
+
+==================================================
+23. VENDOR MANAGEMENT
+==================================================
+
+Vendor:
+
+Name
+Company
+GST
+PAN
+Phone
+Email
+Address
+Bank information
+Products/services
+
+Purchase orders.
+
+Invoice management.
+
+==================================================
+24. ASSET MANAGEMENT
+==================================================
+
+Track:
+
+Laptop
+Desktop
+Printer
+Projector
+Furniture
+Vehicle
+Camera
+Mobile
+Tablet
+
+Asset fields:
+
+Asset ID
+Purchase date
+Cost
+Location
+Assigned person
+Condition
+Warranty
+AMC
+Status
+
+==================================================
+25. WEBSITE CMS
+==================================================
+
+Create CMS.
+
+Pages:
+
+Home
+About
+NGOs
+Programs
+Education
+Campaigns
+Donate
+Volunteer
+Events
+Success Stories
+Blog
+News
+Contact
+FAQ
+Privacy Policy
+Terms
+Refund Policy
+
+Admin should be able to edit pages without coding.
+
+==================================================
+26. BLOG / SUCCESS STORIES
+==================================================
+
+Create:
+
+Blog posts
+Success stories
+Impact stories
+News
+Announcements
+
+Fields:
+
+Title
+Description
+Images
+Video
+Author
+NGO
+Category
+Tags
+Publish date
+SEO title
+SEO description
+
+==================================================
+27. IMPACT DASHBOARD
+==================================================
+
+Create public impact dashboard.
+
+Show:
+
+Children supported
+Students educated
+Scholarships provided
+Books distributed
+Clothes distributed
+Meals served
+Volunteers
+Donors
+NGOs
+Projects
+Funds utilized
+
+Charts:
+
+Monthly donations
+Students supported
+Items distributed
+NGO performance
+State-wise impact
+Program-wise impact
+
+==================================================
+28. ADMIN DASHBOARD
+==================================================
+
+Super Admin dashboard.
+
+Cards:
+
+Total NGOs
+Active NGOs
+Pending NGOs
+Total Users
+Beneficiaries
+Students
+Donors
+Volunteers
+Total Donations
+Current Month Donations
+Inventory Items
+Distribution Events
+Campaigns
+
+Charts:
+
+Donation trends
+NGO growth
+Beneficiary growth
+Education progress
+Inventory movement
+State-wise activity
+
+==================================================
+29. NGO DASHBOARD
+==================================================
+
+NGO-specific dashboard.
+
+Show:
+
+Students
+Beneficiaries
+Donors
+Volunteers
+Inventory
+Campaigns
+Donations
+Expenses
+Events
+Pending requests
+Low stock
+
+==================================================
+30. SEARCH & FILTERING
+==================================================
+
+Global search.
+
+Search:
+
+NGOs
+Users
+Students
+Beneficiaries
+Donors
+Inventory
+Campaigns
+Events
+Documents
+
+Advanced filters.
+
+Pagination.
+
+Sorting.
+
+Export CSV/Excel/PDF.
+
+==================================================
+31. NOTIFICATION SYSTEM
+==================================================
+
+Notifications:
+
+Email
+SMS
+WhatsApp-ready integration
+In-app notifications
+Push notifications
+
+Examples:
+
+Donation successful
+Donation receipt generated
+Scholarship approved
+Inventory low
+Distribution scheduled
+Volunteer approved
+Event reminder
+Document expiry
+Campaign ending
+
+Create notification templates.
+
+==================================================
+32. COMMUNICATION
+==================================================
+
+Create messaging system.
+
+Admin → NGO
+
+NGO → Volunteer
+
+NGO → Beneficiary
+
+NGO → Donor
+
+Teacher → Student/Parent
+
+Support:
+
+Announcements
+Messages
+Notifications
+
+Add consent/privacy controls.
+
+==================================================
+33. QR CODE SYSTEM
+==================================================
+
+Generate QR codes for:
+
+Beneficiary
+Student
+Donation
+Inventory item
+Warehouse
+Campaign
+Event
+Distribution record
+
+QR scanning should open authorized information only.
+
+==================================================
+34. BARCODE SYSTEM
+==================================================
+
+Inventory barcode support.
+
+Generate barcode.
+
+Scan barcode.
+
+Stock IN.
+
+Stock OUT.
+
+Transfer.
+
+Distribution.
+
+==================================================
+35. REPORTING
+==================================================
+
+Create report builder.
+
+Reports:
+
+Donation report
+Inventory report
+Distribution report
+Beneficiary report
+Student report
+Attendance report
+Scholarship report
+Expense report
+Volunteer report
+Campaign report
+NGO report
+
+Filters:
+
+Date
+NGO
+State
+City
+Program
+Category
+
+Export:
+
+PDF
+Excel
+CSV
+
+==================================================
+36. AUDIT LOG
+==================================================
+
+Track:
+
+Login
+Logout
+Create
+Update
+Delete
+Approval
+Rejection
+Donation
+Inventory changes
+Distribution
+User changes
+Permission changes
+
+Record:
+
+User
+Timestamp
+IP where legally appropriate
+Action
+Object
+Before value
+After value
+
+==================================================
+37. SECURITY
+==================================================
+
+Implement:
+
+RBAC
+Tenant isolation
+Password hashing
+Secure sessions
+CSRF protection
+XSS protection
+SQL injection protection
+Rate limiting
+Input validation
+File upload validation
+Virus/malware scanning architecture
+Encryption for sensitive data
+Audit logs
+Secure API authentication
+
+Follow privacy-by-design.
+
+Never expose Aadhaar or sensitive beneficiary information publicly.
+
+==================================================
+38. DATABASE
+==================================================
+
+Use relational database.
+
+Recommended:
+
+PostgreSQL
+
+Design normalized database.
+
+Major tables:
+
+users
+roles
+permissions
+user_roles
+ngos
+ngo_users
+beneficiaries
+guardians
+students
+schools
+classes
+subjects
+teachers
+attendance
+assignments
+exams
+results
+donors
+donations
+donation_receipts
+campaigns
+sponsorships
+inventory_items
+inventory_categories
+inventory_transactions
+warehouses
+warehouse_stock
+distribution_events
+distribution_items
+distribution_records
+volunteers
+volunteer_events
+scholarships
+scholarship_applications
+documents
+expenses
+vendors
+purchase_orders
+assets
+events
+notifications
+messages
+blog_posts
+success_stories
+audit_logs
+
+Every NGO-related table must support NGO/tenant isolation.
+
+==================================================
+39. API
+==================================================
+
+Create REST API or GraphQL API.
+
+API modules:
+
+/auth
+/users
+/ngos
+/beneficiaries
+/students
+/education
+/donors
+/donations
+/campaigns
+/inventory
+/warehouses
+/distributions
+/volunteers
+/scholarships
+/documents
+/expenses
+/events
+/notifications
+/reports
+
+Use API versioning:
+
+/api/v1/
+
+==================================================
+40. MOBILE APP
+==================================================
+
+Build responsive PWA.
+
+Mobile bottom navigation:
+
+Home
+Programs
+Donate
+Events
+Profile
+
+NGO mobile:
+
+Dashboard
+Beneficiaries
+Inventory
+Distribution
+Volunteers
+Reports
+
+Volunteer mobile:
+
+Tasks
+Events
+Attendance
+Profile
+
+Student:
+
+Learning
+Attendance
+Assignments
+Results
+Profile
+
+==================================================
+41. OFFLINE SUPPORT
+==================================================
+
+For field workers, support limited offline functionality.
+
+Example:
+
+Distribution team goes to rural area.
+
+Allow:
+
+Beneficiary verification
+Distribution entry
+Attendance
+
+Store temporarily on device.
+
+Sync automatically when internet returns.
+
+Handle conflicts safely.
+
+==================================================
+42. MULTI-LANGUAGE
+==================================================
+
+Support:
+
+English
+Hindi
+
+Architecture should allow:
+
+Tamil
+Telugu
+Bengali
+Marathi
+Gujarati
+Kannada
+Malayalam
+Punjabi
+Urdu
+
+All UI text should come from translation files.
+
+==================================================
+43. GEOLOCATION
+==================================================
+
+Support:
+
+State
+District
+City
+PIN code
+
+Optional GPS for:
+
+Distribution location
+Events
+NGO branches
+Field activities
+
+Ask user permission before collecting location.
+
+==================================================
+44. MAP
+==================================================
+
+Create map-based NGO directory.
+
+Show:
+
+NGO locations
+Education centers
+Distribution centers
+Events
+
+Never expose private beneficiary addresses.
+
+==================================================
+45. SEO
+==================================================
+
+Public website must be SEO optimized.
+
+Implement:
+
+Meta title
+Meta description
+Open Graph
+Sitemap
+Robots.txt
+Schema.org structured data
+Canonical URLs
+SEO-friendly URLs
+
+Examples:
+
+/ngos
+/ngos/{ngo-slug}
+/campaigns/{campaign-slug}
+/programs/{program-slug}
+/success-stories/{slug}
+
+==================================================
+46. ADMIN CMS
+==================================================
+
+Admin should control:
+
+Logo
+Website name
+Colors
+Footer
+Menus
+Homepage sections
+Contact information
+Social media
+Donation settings
+Email templates
+Notification templates
+Languages
+Categories
+Inventory units
+User roles
+Permissions
+
+==================================================
+47. DASHBOARD UX
+==================================================
+
+Design should be:
+
+Modern
+Clean
+Professional
+Trustworthy
+Simple
+Mobile-first
+
+Use cards.
+
+Use charts.
+
+Use tables.
+
+Use search.
+
+Use filters.
+
+Use status badges.
+
+Use confirmation dialogs.
+
+Show success/error messages.
+
+Never leave buttons non-functional.
+
+==================================================
+48. FORM VALIDATION
+==================================================
+
+Every form must have:
+
+Required field validation
+Email validation
+Phone validation
+Date validation
+Number validation
+File validation
+Maximum file size
+Duplicate checking
+Server-side validation
+Client-side validation
+
+Show clear error messages.
+
+==================================================
+49. DATA IMPORT / EXPORT
+==================================================
+
+Allow admins to import:
+
+NGOs
+Students
+Beneficiaries
+Inventory
+Donors
+
+Formats:
+
+CSV
+Excel
+
+Provide downloadable templates.
+
+Import preview.
+
+Validation.
+
+Error report.
+
+Rollback failed imports.
+
+==================================================
+50. BACKUP
+==================================================
+
+Create database backup architecture.
+
+Allow:
+
+Manual backup
+Scheduled backup
+Restore process
+
+Never expose database credentials in frontend.
+
+==================================================
+51. DEMO DATA
+==================================================
+
+Create realistic demo data.
+
+Example:
+
+5 NGOs
+50 students
+100 beneficiaries
+20 volunteers
+30 donors
+100 inventory items
+10 campaigns
+10 events
+
+Clearly mark demo data.
+
+==================================================
+52. TESTING
+==================================================
+
+Create automated tests.
+
+Test:
+
+Authentication
+Authorization
+NGO isolation
+Donation
+Inventory
+Distribution
+Student management
+Scholarship
+Volunteer
+Reports
+File uploads
+API
+
+Also test mobile responsive behavior.
+
+==================================================
+53. ERROR HANDLING
+==================================================
+
+Create:
+
+404 page
+403 page
+500 page
+Network error
+Session expired
+Permission denied
+Validation error
+
+Provide useful user-friendly messages.
+
+==================================================
+54. PERFORMANCE
+==================================================
+
+Optimize:
+
+Database queries
+Indexes
+Pagination
+Caching
+Images
+Lazy loading
+API calls
+Frontend bundle
+
+Use CDN-compatible architecture.
+
+==================================================
+55. CLOUD DEPLOYMENT
+==================================================
+
+Application must be deployable to:
+
+AWS
+Azure
+Google Cloud
+DigitalOcean
+Vercel
+Netlify
+Cloudflare
+
+Keep infrastructure provider-independent.
+
+Create:
+
+Dockerfile
+docker-compose.yml
+.env.example
+database migration scripts
+seed scripts
+deployment documentation
+
+==================================================
+56. CLOUD STORAGE
+==================================================
+
+Create storage abstraction.
+
+Support future:
+
+AWS S3
+Azure Blob
+Google Cloud Storage
+Cloudflare R2
+Local storage for development
+
+Do not hard-code one provider.
+
+==================================================
+57. EMAIL
+==================================================
+
+Create email service abstraction.
+
+Support future:
+
+SMTP
+Amazon SES
+SendGrid
+Mailgun
+
+Templates:
+
+Welcome
+OTP
+Password reset
+Donation receipt
+Volunteer approval
+Scholarship approval
+Event reminder
+
+==================================================
+58. PAYMENT ABSTRACTION
+==================================================
+
+Create:
+
+PaymentProvider interface
+
+Allow:
+
+Razorpay
+Stripe
+PayPal
+UPI
+
+Admin can configure provider.
+
+Never expose secret keys to frontend.
+
+==================================================
+59. GOVERNANCE
+==================================================
+
+Create NGO approval workflow.
+
+Super Admin can:
+
+Approve NGO
+Reject NGO
+Suspend NGO
+Reactivate NGO
+
+Maintain reason and audit log.
+
+==================================================
+60. DATABASE MULTI-TENANCY
+==================================================
+
+Use tenant_id / ngo_id where appropriate.
+
+Implement strict authorization.
+
+NGO A must NEVER access NGO B's private data.
+
+Super Admin can access all.
+
+==================================================
+61. PUBLIC DONATION EXPERIENCE
+==================================================
+
+Donation should be extremely simple.
+
+Flow:
+
+Campaign
+→ Donate
+→ Enter amount
+→ Donor details
+→ Payment
+→ Success
+→ Receipt
+
+Support:
+
+₹100
+₹500
+₹1,000
+₹5,000
+Custom amount
+
+Monthly donation toggle.
+
+==================================================
+62. TRANSPARENCY
+==================================================
+
+Create public transparency page.
+
+Show:
+
+Funds received
+Funds utilized
+Programs
+Impact
+Reports
+Annual reports
+Utilization reports
+
+Sensitive data must remain private.
+
+==================================================
+63. ACCESSIBILITY
+==================================================
+
+Follow WCAG principles.
+
+Support:
+
+Keyboard navigation
+Screen readers
+Proper labels
+Color contrast
+Alt text
+Accessible forms
+Focus states
+
+==================================================
+64. DESIGN SYSTEM
+==================================================
+
+Create reusable components:
+
+Button
+Input
+Select
+Dropdown
+Modal
+Drawer
+Table
+Card
+Badge
+Tabs
+Accordion
+Toast
+Pagination
+Date picker
+File uploader
+Chart
+Empty state
+Loading state
+Error state
+
+Use consistent spacing and typography.
+
+==================================================
+65. RESPONSIVE BREAKPOINTS
+==================================================
+
+Desktop
+Tablet
+Mobile
+
+Test:
+
+1920px
+1440px
+1024px
+768px
+480px
+375px
+
+==================================================
+66. PROJECT STRUCTURE
+==================================================
+
+Separate:
+
+Frontend
+Backend
+Database
+API
+Authentication
+Storage
+Notifications
+Payments
+Reports
+
+Use clean architecture.
+
+Keep modules independent.
+
+==================================================
+67. ENVIRONMENT VARIABLES
+==================================================
+
+Create:
+
+.env.example
+
+Include placeholders for:
+
+DATABASE_URL
+JWT_SECRET
+SMTP_HOST
+SMTP_USER
+SMTP_PASSWORD
+RAZORPAY_KEY
+RAZORPAY_SECRET
+STRIPE_KEY
+STRIPE_SECRET
+AWS_ACCESS_KEY
+AWS_SECRET_KEY
+S3_BUCKET
+GOOGLE_CLIENT_ID
+GOOGLE_CLIENT_SECRET
+
+Never commit real secrets.
+
+==================================================
+68. FINAL REQUIREMENT
+==================================================
+
+The application must NOT be a static UI mockup.
+
+All major workflows must actually function.
+
+Implement:
+
+Frontend
+Backend
+Database
+Authentication
+Authorization
+API
+Forms
+Validation
+CRUD
+Search
+Filters
+Pagination
+Reports
+Notifications
+File uploads
+Inventory
+Donations
+Campaigns
+Education
+Scholarships
+Volunteers
+Events
+Distribution
+Multi-NGO isolation
+
+Create a complete production-ready foundation.
+
+==================================================
+69. DELIVERABLES
+==================================================
+
+Provide:
+
+1. Complete source code
+2. Database schema
+3. Database migrations
+4. Seed/demo data
+5. API documentation
+6. Admin portal
+7. NGO portal
+8. User portal
+9. Responsive website
+10. PWA
+11. Authentication
+12. Role management
+13. Payment architecture
+14. Notification architecture
+15. Storage architecture
+16. Docker configuration
+17. Deployment documentation
+18. Environment variable template
+19. Testing
+20. Security documentation
+21. Backup documentation
+22. User manual
+
+==================================================
+70. QUALITY CHECK
+==================================================
+
+Before declaring the project complete:
+
+CLICK EVERY BUTTON.
+
+CHECK EVERY TAB.
+
+CHECK EVERY FORM.
+
+CHECK EVERY MENU.
+
+CHECK EVERY LINK.
+
+CHECK LOGIN.
+
+CHECK LOGOUT.
+
+CHECK ROLE PERMISSIONS.
+
+CHECK NGO DATA ISOLATION.
+
+CHECK MOBILE VIEW.
+
+CHECK TABLE FILTERS.
+
+CHECK SEARCH.
+
+CHECK PAGINATION.
+
+CHECK FILE UPLOAD.
+
+CHECK DONATION FLOW.
+
+CHECK INVENTORY FLOW.
+
+CHECK DISTRIBUTION FLOW.
+
+CHECK EDUCATION FLOW.
+
+CHECK SCHOLARSHIP FLOW.
+
+CHECK VOLUNTEER FLOW.
+
+CHECK REPORT EXPORT.
+
+CHECK ERROR STATES.
+
+Fix every broken workflow.
+
+Do not leave:
+
+TODO
+Coming Soon
+Dummy Button
+#TODO
+Placeholder functionality
+
+unless explicitly marked as a future integration.
+
+==================================================
+FINAL OUTPUT
+==================================================
+
+First generate the complete architecture.
+
+Then generate:
+
+1. Database ER diagram
+2. Application architecture diagram
+3. User role/permission matrix
+4. Page/screen sitemap
+5. API architecture
+6. Database schema
+7. Folder structure
+8. Implementation plan
+
+Then implement the application module by module.
+
+After implementation, perform a complete QA audit and fix all errors.
+
+The final application should look and behave like a professional NGO management platform rather than a basic CRUD application.
